@@ -97,30 +97,30 @@ Open and run Amazon Alexa Review Sentiment Analysis.ipynb
 ### 📊 Sample Visualizations
 The analysis generates:
 
-Rating distribution bar chart and pie chart
+-Rating distribution bar chart and pie chart
 
-Sentiment distribution visualization
+-Sentiment distribution visualization
 
-Rating vs Feedback cross-tabulation
+-Rating vs Feedback cross-tabulation
 
-Top 10 product variations by count and rating
+-Top 10 product variations by count and rating
 
-Review length histograms (overall, positive, negative)
+-Review length histograms (overall, positive, negative)
 
-Word clouds for all reviews, positive reviews, and negative reviews
+-Word clouds for all reviews, positive reviews, and negative reviews
 
 ### 🎯 Key Findings
 ## ✅ What's Working Well:
-Customer Satisfaction: 91.8% of reviews are positive
+ -Customer Satisfaction: 91.8% of reviews are positive
 
-Product Quality: 5-star ratings dominate at 72.6%
+ -Product Quality: 5-star ratings dominate at 72.6%
 
-Top Performers: Walnut Finish and Oak Finish variations have highest ratings
+ -Top Performers: Walnut Finish and Oak Finish variations have highest ratings
 
 ### ⚠️ Areas for Improvement:
-Negative Feedback: Sound quality and connectivity issues mentioned frequently
+ -Negative Feedback: Sound quality and connectivity issues mentioned frequently
 
-Review Length: Negative reviewers write longer, more detailed complaints
+ -Review Length: Negative reviewers write longer, more detailed complaints
 
 ### 📂 Repository Structure
 text
@@ -132,23 +132,24 @@ text
  │   └── SentimentBulk.csv                    
  │
  ├── amazon_alexa_sentiment_analysis.ipynb   
- ├── requirements.txt                         
+ ├── repository.txt  
+ ├── requirements.txt  
  └── README.md                       
 
 ### 📦 Dependencies
-text
-numpy
-pandas
-matplotlib
-seaborn
-nltk
-wordcloud
+ text
+ numpy
+ pandas
+ matplotlib
+ seaborn
+ nltk
+ wordcloud
 
 ### 🙏 Acknowledgments
-Dataset sourced from Amazon Alexa customer reviews
+ -Dataset sourced from Amazon Alexa customer reviews
 
-Analysis inspired by real-world sentiment analysis applications
+ -Analysis inspired by real-world sentiment analysis applications
 
-Built with Python's data science ecosystem
+ -Built with Python's data science ecosystem
 
-Special thanks to the open-source community for NLTK and WordCloud libraries        
+ -Special thanks to the open-source community for NLTK and WordCloud libraries        
