@@ -1,0 +1,11 @@
+amazon-alexa-sentiment-analysis/
+ │
+ ├── data/
+ │   ├── amazon_alexa.tsv                    
+ │   ├── Predictions.csv                      
+ │   └── SentimentBulk.csv                    
+ │
+ ├── amazon_alexa_sentiment_analysis.ipynb   
+ ├── requirements.txt  
+ ├── Repository.txt                          
+ └── README.md  
